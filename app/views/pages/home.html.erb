@@ -1,2 +1,20 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+<%= render 'shared/banner' %>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+    <%= image_tag "bottle.png", style: "height: 100px; margin: 0px 5px;"%>
+      <h3>Choix</h3>
+      <p>Choisissez un vin qui vous convient</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <h3>Qualité</h3>
+      <p>A simple app, <strong>very simple</strong> app</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <h3>Prix</h3>
+      <p>An awesome app, <strong>very awesome</strong> app</p>
+    </div>
+
+  </div>
+</div>
