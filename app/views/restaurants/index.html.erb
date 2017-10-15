@@ -1,2 +1,10 @@
-<h1>Restaurants#index</h1>
-<p>Find me in app/views/restaurants/index.html.erb</p>
+<ul>
+<% @restaurants.each do |restaurant| %>
+  <li><%= restaurant[:name] %>
+  <%= restaurant[:stars] %>
+    <p>vous propose: L'abeille de Fieuzal: 15euros reste 6 bouteilles</p>
+  <p>a besoin de: l'Orangerie de Carignan x15 bouteilles</p>
+
+  </li>
+<% end %>
+</ul>
